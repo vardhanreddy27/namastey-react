@@ -9,6 +9,7 @@
   <body>
     <div id="root"></div>
     <div id="roots"></div>
+    <div id="rootjs"></div>
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -28,6 +29,10 @@
       const reles = ReactDOM.createRoot(document.getElementById("roots"));
       rele.render(element);
       reles.render(head6);
+      const heading = document.createElement("h1");
+      heading.innerHTML = "hello from js!";
+      const roott = document.getElementById("rootjs");
+      roott.appendChild(heading);
     </script>
   </body>
 </html>
