@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Namastey React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="roots"></div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script>
+      const element = React.createElement("div", { id: "title" }, "first");
+      const head6 = React.createElement(
+        "h6",
+        { className: "akash" },
+        "Hello, world! of least head size"
+      );
+      const rele = ReactDOM.createRoot(document.getElementById("root"));
+      const reles = ReactDOM.createRoot(document.getElementById("roots"));
+      rele.render(element);
+      reles.render(head6);
+    </script>
+  </body>
+</html>
