@@ -1,0 +1,26 @@
+{
+  "name": "namastey-react",
+  "version": "1.0.0",
+  "description": "my practice",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vardhanreddy27/namastey-react.git"
+  },
+  "author": "vishnu vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vardhanreddy27/namastey-react/issues"
+  },
+  "homepage": "https://github.com/vardhanreddy27/namastey-react#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

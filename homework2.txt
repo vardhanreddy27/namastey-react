@@ -1,0 +1,23 @@
+1.what is npm ?
+basically it is a node package manager which is used to install dependencies
+2.what is parcel/webpack?
+webpack r parcel bundler your js code and improves performance and removes all unwanted console.log and many other features 3. what is parcel-cache?
+bacially it will store info of build so when next time it creates no need to rebuld everything
+4.what is npx?
+bacially npx is node packages executer so when we wite command with npx then it take care of exection which is there in build step in package.json
+5.what is dist folder ?
+it is a distubition it contains minified version of our code
+6.what is package-lock.json?
+lock json file is used to manage version updates in node modules
+7.What is difference between `dependencies` vs `devDependencies`?
+dev dependences are basically for non prod use
+8.What is Tree Shaking?
+it is commonly used in js to remove dead code/
+9.what is hot module replacement?
+Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload. This can significantly speed up development in a few ways: Retain application state which is lost during a full reload. Save valuable development time by only updating what's changed.
+10.● - What is `node_modules` ? Is it a good idea to push that on git?
+
+no becouse node modules are heavy in size
+11.type=module in script tag
+it tells tht this js is executable and cosnist import modules 12. why npm init?
+The npm init command is used to create a Node. js project. The npm init command will create a package where the project files will be stored. All the modules you download will be stored in the package.
